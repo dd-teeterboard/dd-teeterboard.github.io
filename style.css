@@ -84,7 +84,7 @@ h2 { margin: 0 0 18px; font-weight: 300; font-size: clamp(1.8rem, 4vw, 2.6rem); 
 .video .play::before { content: ""; margin-left: 4px; border-left: 14px solid var(--fg); border-top: 9px solid transparent; border-bottom: 9px solid transparent; }
 .video button:hover .play { background: rgba(236,235,232,0.1); }
 .video .hint { font-size: 0.7rem; letter-spacing: 0.26em; text-transform: uppercase; color: var(--mute); }
-.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none !importante; }
 figcaption { margin-top: 14px; font-size: 0.95rem; }
 figcaption small { display: block; color: var(--mute); font-size: 0.82rem; margin-top: 2px; }
 figcaption a { color: var(--fg); text-decoration-color: var(--line); text-underline-offset: 3px; }

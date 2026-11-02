@@ -1,4 +1,26 @@
-/* Layout: near-black page, one light sans, hairlines only. Text left, one photo right, generous empty space. No accent colour. */
+@font-face {
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("hanken-grotesk-v12-latin-300.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("hanken-grotesk-v12-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("hanken-grotesk-v12-latin-600.woff2") format("woff2");
+}/* Layout: near-black page, one light sans, hairlines only. Text left, one photo right, generous empty space. No accent colour. */
 :root {
   --bg: #0a0a0b;
   --bg-2: #101012;
